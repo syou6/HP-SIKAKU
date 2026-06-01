@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第二種衛生管理者 試験対策問題集｜本番形式の五肢択一で最短合格</title>
+<meta name="description" content="第二種衛生管理者試験に特化した、本番形式（五肢択一）の問題集アプリ。全216問・全18章、全問くわしい解説つき。第一種の範囲は出ません。広告なし・買い切り。">
+<meta property="og:title" content="第二種衛生管理者 試験対策問題集">
+<meta property="og:description" content="本番形式の五肢択一216問。第二種専用・全問解説・広告なし。">
+<meta property="og:type" content="website">
+<style>
+  :root{
+    --paper:#F4EFE3; --paper2:#ECE5D4; --ink:#1F2420; --soft:#54584F;
+    --line:#D8CFBA; --verm:#D4452C; --green:#2F6B4F; --gold:#C8923A;
+    --cardTop:#FCF9F0; --cardBot:#F6F0E2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:-apple-system,"Hiragino Sans",sans-serif;color:var(--ink);background:var(--paper);line-height:1.85;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px;}
+  a{color:var(--verm);text-decoration:none;}
+  .btn{display:inline-flex;align-items:center;gap:10px;background:var(--verm);color:#fff;font-weight:700;padding:16px 30px;border-radius:16px;font-size:1.05rem;box-shadow:0 6px 18px rgba(212,69,44,.28);transition:transform .15s;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);box-shadow:none;}
+  .badge{display:inline-block;font-size:.78rem;font-weight:700;color:#fff;background:var(--green);padding:4px 12px;border-radius:999px;letter-spacing:.04em;}
+
+  /* hero */
+  header{background:linear-gradient(180deg,var(--cardTop),var(--cardBot));border-bottom:1px solid var(--line);}
+  .hero{display:flex;gap:48px;align-items:center;padding:64px 0 56px;flex-wrap:wrap;}
+  .hero-copy{flex:1 1 380px;}
+  .hero h1{font-size:2.5rem;line-height:1.35;letter-spacing:.01em;margin:14px 0 18px;}
+  .hero p.lead{font-size:1.15rem;color:var(--soft);margin-bottom:28px;}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .hero-icon{flex:0 0 auto;}
+  .hero-icon img{width:148px;height:148px;border-radius:32px;box-shadow:0 12px 30px rgba(31,36,32,.18);}
+  .under{height:6px;width:120px;background:var(--verm);border-radius:3px;margin-bottom:6px;}
+
+  /* sections */
+  section{padding:64px 0;}
+  h2.sec{font-size:1.7rem;text-align:center;margin-bottom:8px;}
+  .sub{text-align:center;color:var(--soft);margin-bottom:40px;}
+
+  /* features grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+  .feat{background:var(--cardTop);border:1px solid var(--line);border-radius:18px;padding:26px 24px;box-shadow:0 4px 12px rgba(31,36,32,.05);}
+  .feat .ic{font-size:1.6rem;}
+  .feat h3{font-size:1.12rem;margin:10px 0 6px;}
+  .feat p{color:var(--soft);font-size:.97rem;}
+
+  /* diff bar */
+  .diff{background:var(--paper2);}
+  .difflist{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;max-width:880px;margin:0 auto;}
+  .diff .row{display:flex;gap:12px;align-items:flex-start;background:var(--cardTop);border-radius:14px;padding:18px;border:1px solid var(--line);}
+  .diff .row b{color:var(--green);font-size:1.3rem;line-height:1;}
+
+  /* screenshots */
+  .shots{display:flex;gap:18px;overflow-x:auto;padding:10px 4px 24px;scroll-snap-type:x mandatory;}
+  .shots img{height:560px;border-radius:22px;scroll-snap-align:center;flex:0 0 auto;box-shadow:0 10px 26px rgba(31,36,32,.12);border:1px solid var(--line);}
+
+  /* pricing */
+  .price{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;}
+  .plan{background:var(--cardTop);border:1px solid var(--line);border-radius:20px;padding:30px 28px;width:300px;text-align:center;}
+  .plan.hot{border:2px solid var(--verm);position:relative;}
+  .plan h3{font-size:1.2rem;}
+  .plan .amt{font-size:2.2rem;font-weight:800;margin:10px 0;}
+  .plan ul{list-style:none;text-align:left;margin-top:14px;color:var(--soft);font-size:.95rem;}
+  .plan li{padding:5px 0 5px 24px;position:relative;}
+  .plan li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800;}
+
+  /* faq */
+  .faq details{background:var(--cardTop);border:1px solid var(--line);border-radius:14px;padding:6px 20px;margin:12px 0;}
+  .faq summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none;}
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary::after{content:"＋";float:right;color:var(--verm);}
+  .faq details[open] summary::after{content:"−";}
+  .faq p{color:var(--soft);padding:0 0 14px;}
+
+  footer{background:var(--ink);color:#cfc9bd;padding:40px 0;text-align:center;font-size:.9rem;}
+  footer a{color:#e8c9a0;}
+  .note{background:#fff7e9;border:1px solid var(--gold);border-radius:12px;padding:14px 18px;color:#7a5b1e;font-size:.9rem;max-width:760px;margin:20px auto 0;text-align:center;}
+  @media(max-width:560px){ .hero h1{font-size:2rem;} .shots img{height:460px;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hero">
+    <div class="hero-copy">
+      <span class="badge">第二種専用</span>
+      <h1>本番形式の五肢択一で、<br>第二種衛生管理者に最短合格。</h1>
+      <div class="under"></div>
+      <p class="lead">全216問・全18章。全問にくわしい解説つき。<br>第一種の範囲は出ないから、迷わず学べる。広告ゼロ。</p>
+      <div class="hero-cta">
+        <a class="btn" href="#download">App Storeでダウンロード</a>
+        <a class="btn ghost" href="#price">料金を見る</a>
+      </div>
+    </div>
+    <div class="hero-icon"><img src="img/icon.png" alt="アプリアイコン"></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec">最短合格のための機能</h2>
+    <p class="sub">スキマ時間に解いて、即採点、解説で理解。</p>
+    <div class="grid">
+      <div class="feat"><div class="ic">📝</div><h3>本番形式の五肢択一</h3><p>関係法令・労働衛生・労働生理を全18章・216問収録。実際の試験と同じ形式で慣れる。</p></div>
+      <div class="feat"><div class="ic">💡</div><h3>全問くわしい解説</h3><p>なぜ誤りかまで解説。数値・論点は専門知識でチェック済みの正確さ。</p></div>
+      <div class="feat"><div class="ic">🎯</div><h3>第二種専用</h3><p>第一種の範囲は出題しません。混ざって迷うことなく、必要な範囲だけに集中。</p></div>
+      <div class="feat"><div class="ic">📚</div><h3>章別 × 1回10問</h3><p>章ごとに弱点をつぶせる。1回10問のスキマ時間学習で継続しやすい。</p></div>
+      <div class="feat"><div class="ic">🔁</div><h3>間違いだけ復習</h3><p>誤答を自動収集。間違えた問題だけまとめて復習し、弱点を確実につぶす。</p></div>
+      <div class="feat"><div class="ic">▶️</div><h3>続きから再開</h3><p>中断しても進捗は自動保存。いつでも続きから。広告なしで集中できる。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="diff">
+  <div class="wrap">
+    <h2 class="sec">他のアプリと、ここが違う</h2>
+    <p class="sub">よくある不満を、最初から解消。</p>
+    <div class="difflist">
+      <div class="row"><b>◎</b><div><strong>解説の正確性</strong><br>全問ファクトチェック済み。数値・論点が正しい。</div></div>
+      <div class="row"><b>◎</b><div><strong>第二種に純化</strong><br>第一種の問題が混ざらない。範囲を汚さない。</div></div>
+      <div class="row"><b>◎</b><div><strong>本番と同じ五肢択一</strong><br>一問一答だけでなく、本試験の形式で実戦練習。</div></div>
+      <div class="row"><b>◎</b><div><strong>広告ゼロ・買い切り</strong><br>サブスクなし。一度の購入だけ。集中して学べる。</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec">画面</h2>
+    <p class="sub">和紙×墨の落ち着いたデザイン。</p>
+    <div class="shots">
+      <img src="img/s1.png" alt="ホーム">
+      <img src="img/s2.png" alt="五肢択一の出題">
+      <img src="img/s3.png" alt="即採点と解説">
+      <img src="img/s4.png" alt="結果と復習">
+    </div>
+  </div>
+</section>
+
+<section id="price" class="diff">
+  <div class="wrap">
+    <h2 class="sec">料金</h2>
+    <p class="sub">まず無料でお試し。気に入ったら一度きりの買い切り。</p>
+    <div class="price">
+      <div class="plan">
+        <h3>無料</h3>
+        <div class="amt">¥0</div>
+        <ul><li>各分野の第1章をお試し</li><li>本番形式の五肢択一</li><li>解説つき</li><li>広告なし</li></ul>
+      </div>
+      <div class="plan hot">
+        <span class="badge" style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);">おすすめ</span>
+        <h3>全問解放</h3>
+        <div class="amt">¥600 <span style="font-size:.9rem;color:var(--soft);font-weight:500;">買い切り</span></div>
+        <ul><li>全216問・全18章を解放</li><li>全問くわしい解説</li><li>章別学習・間違い復習</li><li>続きから再開・進捗保存</li><li>サブスクなし・広告なし</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="download">
+  <div class="wrap" style="text-align:center;">
+    <h2 class="sec">第二種衛生管理者の合格を、最短ルートで。</h2>
+    <p class="sub">スキマ時間に解いて、解説で理解して、弱点をつぶす。</p>
+    <a class="btn" href="#" style="font-size:1.15rem;padding:18px 40px;">App Storeでダウンロード</a>
+    <div class="note">※ 公開後、このボタンのリンク（href="#"）を実際のApp StoreのURLに差し替えてください。</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>第二種衛生管理者 試験対策問題集</p>
+    <p style="margin-top:10px;">
+      <a href="privacy.html">プライバシーポリシー</a> ・
+      <a href="mailto:k.sho626626@gmail.com">お問い合わせ</a>
+    </p>
+    <p style="margin-top:14px;opacity:.7;font-size:.8rem;">© 2026 Sho Kawamoto. 本アプリはオリジナル問題で構成され、公表試験問題・市販テキストの転載はありません。</p>
+  </div>
+</footer>
+
+</body>
+</html>
