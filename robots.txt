@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://syou6.github.io/HP-SIKAKU/sitemap.xml
